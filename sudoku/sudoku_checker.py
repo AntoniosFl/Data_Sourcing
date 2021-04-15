@@ -51,7 +51,7 @@ def block_checker_short(start=0):
             counter += 1
     else:
         print('Only valid values are 0,3,6')
-        return Falsei
+        return False
     if set(block_checker_1) == comparing_set and set(
             block_checker_2) == comparing_set and set(
                 block_checker_3) == comparing_set:
